@@ -12,6 +12,12 @@ Minio server is light enough to be bundled with the application stack, similar t
 ```
 $ sudo docker build -t minio-arm .
 ```
+
+Or you can pull it from hub.docker.io
+```
+$ sudo docker pull pixelchrome/minio-arm
+```
+
 # Run Minio Standalone on Docker
 ```
 sudo docker run -p 9000:9000 -v /export/minio -v /export/mino-config:/root/.minio minio-arm server /export
@@ -22,3 +28,7 @@ A more detailed description can be found here https://docs.minio.io/docs/minio-d
 
 # Not tested
 Distributed Minio on Docker has not been tested
+
+# Links
+GitHub Repository - https://github.com/pixelchrome/minio-arm
+Docker Hub Repository - https://hub.docker.com/r/pixelchrome/minio-arm
