@@ -1,0 +1,12 @@
+image: pixelchrome/minio-arm:latest
+manifests:
+  - image: pixelchrome/minio-arm:latest-arm64v8
+    platform:
+      architecture: arm64
+      os: linux
+      variant: v8
+  - image: pixelchrome/minio-arm:latest-arm32v7
+    platform:
+      architecture: arm
+      os: linux
+      variant: v7

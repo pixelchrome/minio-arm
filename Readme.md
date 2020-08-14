@@ -1,8 +1,8 @@
 ![Docker Pulls](https://img.shields.io/docker/pulls/pixelchrome/minio-arm)
-![Build Status](https://img.shields.io/docker/automated/pixelchrome/minio-arm)
+![Build Status](https://img.shields.io/docker/cloud/build/pixelchrome/minio-arm)
 
 # Minio Docker Container for ARM
-This Dockerfile installs Minio on your ARM-Plarform (e.g. Raspberry Pi)
+This Dockerfile installs Minio on your ARM-Platform (e.g. Raspberry Pi)
 
 # Minio
 Please visit the Minio Website for more details https://minio.io
@@ -32,6 +32,13 @@ A more detailed description can be found here https://docs.minio.io/docs/minio-d
 # Not tested
 Distributed Minio on Docker has not been tested
 
+# Whats the `Dockerfile.arm32v7` ?
+
+The `Dockerfile.arm32v7` was created to use the automated build process on the [Hub](hub.docker.com). Also the scripts in the `hooks` directory.
+Thanks to [trion.de](https://www.trion.de)
+
 # Links
 * GitHub Repository - https://github.com/pixelchrome/minio-arm
 * Docker Hub Repository - https://hub.docker.com/r/pixelchrome/minio-arm
+* Multi-Arch Images als Autobuild - https://www.trion.de/news/2019/10/14/docker-multi-arch-dockerhub.html
+* Support automated ARM builds - https://github.com/docker/hub-feedback/issues/1261
