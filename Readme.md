@@ -1,3 +1,6 @@
+![Docker Pulls](https://img.shields.io/docker/pulls/pixelchrome/minio-arm)
+![Build Status](https://img.shields.io/docker/automated/pixelchrome/minio-arm)
+
 # Minio Docker Container for ARM
 This Dockerfile installs Minio on your ARM-Plarform (e.g. Raspberry Pi)
 
@@ -30,5 +33,5 @@ A more detailed description can be found here https://docs.minio.io/docs/minio-d
 Distributed Minio on Docker has not been tested
 
 # Links
-GitHub Repository - https://github.com/pixelchrome/minio-arm
-Docker Hub Repository - https://hub.docker.com/r/pixelchrome/minio-arm
+* GitHub Repository - https://github.com/pixelchrome/minio-arm
+* Docker Hub Repository - https://hub.docker.com/r/pixelchrome/minio-arm
