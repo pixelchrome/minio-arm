@@ -32,10 +32,13 @@ A more detailed description can be found here https://docs.minio.io/docs/minio-d
 # Not tested
 Distributed Minio on Docker has not been tested
 
-# Whats the `Dockerfile.arm32v7` ?
+# Whats the `Dockerfile.arm32v7` &  `Dockerfile.arm64v8`?
 
-The `Dockerfile.arm32v7` was created to use the automated build process on the [Hub](hub.docker.com). Also the scripts in the `hooks` directory.
-Thanks to [trion.de](https://www.trion.de)
+The `Dockerfile.arm32v7` &  `Dockerfile.arm64v8` have been created to use the automated build process on the [Hub](hub.docker.com). Also the scripts in the `hooks` directory.
+
+As DockerHub is not natively building ARM-Images, it is necessary to find a way around that limitation.
+
+Thanks to [trion.de](https://www.trion.de) for their detailed article how to get it running (link below).
 
 # Links
 * GitHub Repository - https://github.com/pixelchrome/minio-arm
