@@ -1,5 +1,4 @@
 ![Docker Pulls](https://img.shields.io/docker/pulls/pixelchrome/minio-arm)
-![Build Status](https://img.shields.io/docker/cloud/build/pixelchrome/minio-arm)
 
 # Minio Docker Container for ARM
 This Dockerfile installs Minio on your ARM-Platform (e.g. Raspberry Pi)
